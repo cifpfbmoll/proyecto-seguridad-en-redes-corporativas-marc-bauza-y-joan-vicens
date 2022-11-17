@@ -1,3 +1,23 @@
+
+Documentación Sprint 3 Copias de seguridad:
+
+El primer paso será instalar el Duplicati en nuestro servidor.
+
+Con el Duplicati instalado creamos la primera copia con la ruta del servidor y hacemos que cree una copia en google drive, cumpliendo el requisito de que solo podemos permitir la pérdida de datos durante una hora y que solo se genere información de lunes a viernes.
+
+Luego hacemos una restauración.
+
+Creamos la segunda copia con origen en la carpeta “imágenes” de nuestro servidor  y con destino a google drive, esta vez solo podemos aceptar la pérdida de información durante 1 día y solo se genera información de lunes a domingo.
+
+Instalamos 2 herramientas de recuperación de archivos eliminados y hacemos una prueba con las 2 herramientas, luego volvemos ha hacer la misma prueba pero primero hacemos un formateo rápido a nuestro USB y luego lo volvemos a probar pero con un formateo completo.
+
+Con la aplicación Eraser eliminamos cualquier archivo e intentamos recuperar el mismo archivo.
+
+
+
+
+
+
 Documentación Sprint 2 - Hardening de Windows:
 
 - Instala un S.O Windows 11 o 10. Para simular en mejores condiciones la red local de los empleados del entorno empresarial, este equipo Windows 10 tendrá un usuario local (tu nombre y apellidos, sin active directory) Este equipo será utilizado por un empleado que tendrá mínimos privilegios (no podrá instalar nada), por tanto, debe existir otro usuario administrador. Crea los dos usuarios con los privilegios adecuados, y comprueba su configuración.
