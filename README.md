@@ -1,3 +1,30 @@
+Documentación sprint 6
+
+Primero nos descargamos docker un ubuntu.
+Para empezar nos logueamos en docker con el comando “docker login”,Una vez dentro nos descargamos la imagen oficial de nessus.
+Arrancamos el contenedor de nessus con el parámetro docker run “-it” para ponerlo en modo iterativo y “-d” para en modo secundario y -p para conducirlo para un puerto. No es necesario pero para entrar dentro del contenedor con los parametros -it y /bin/bash para entrar en la terminal.
+Una vez instalada la imagen y arrancado el contenedor para entrar en nessus vamos a nuestro buscador y introducimos “https://NUESTRA IP:el puerto que hayamos seleccionado”, esperamos a que se inicialice y introducimos un código de activación que podemos encontrar por internet. 
+Una vez dentro elegimos la opción “advanced Scan” Ponemos el nombre que queramos y la descripción que nos ayude a identificarlo para luego, lo importante es “targets” que será donde pondremos la ip de la máquina metasploitable.
+Programamos un escaneo, para empezar a escanear le damos al triángulo de play,y como veremos se empieza a escanear.
+Aquí está el resultado final, como vemos  metasploitables está llena de vulnerabilidades.
+Este es el escaneo donde hemos hecho varios hardenings y configuraciones de seguridad, está mucho mejor asegurada.
+NMAP
+Escaneamos con el comando nmap al servidor y la máquina metasploitables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Documentación sprint 5
 
 INSTALAR SSH
